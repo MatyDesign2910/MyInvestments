@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Set up Node.js
+    - name: Use Node.js 20
       uses: actions/setup-node@v3
       with:
-        node-version: '16' # Actualizado a Node.js 16
+        node-version: '20'
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
